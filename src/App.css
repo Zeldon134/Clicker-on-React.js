@@ -1,0 +1,38 @@
+.main {
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #0A0A0A;
+}
+
+h1 {
+  text-align: center;
+  color: #ffffff;
+}
+
+.but {
+  display: flex;
+  margin: 10px -10px 0px -10px;
+}
+
+.item {
+  flex: 1 1 auto;
+  margin: 0 10px;
+  height: 100px;
+  transition: 0.5s;
+}
+
+.item:hover {
+  height: 110px;
+}
+
+.blue:hover {
+  filter: drop-shadow(0px 0px 20px #04D9FF);
+}
+
+.red:hover {
+  filter: drop-shadow(0px 0px 20px #FF073A);
+}
